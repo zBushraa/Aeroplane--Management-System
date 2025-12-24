@@ -184,7 +184,7 @@ class Bay {
         this.bayId = bayId;
         this.bayName = bayName;
         this.type = type;
-        this.isOccupied = false;
+        this.isOccupied = true;
         this.occupyingPlane = null;
     }
 
